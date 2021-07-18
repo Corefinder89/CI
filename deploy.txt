@@ -1,0 +1,5 @@
+docker swarm init
+docker stack deploy --compose-file appstack/docker-compose.yml appstack
+docker stack services stackdemo
+docker stack rm stackdemo
+docker swarm leave --force

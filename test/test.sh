@@ -1,4 +1,4 @@
 #!/bin/bash
 
-curl -s http://a623db95d1b6.ngrok.io > val.txt
+curl -s http://306b8d8acc8e.ngrok.io > val.txt
 python3 test_val.py
